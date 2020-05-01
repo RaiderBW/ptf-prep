@@ -71,12 +71,4 @@ make check
 make install
 ldconfig
 
-#-----------------------------------------------------------------#
-# Updated AFTER_COMMANDS for sslyze				  #
-#-----------------------------------------------------------------#
-# COMMANDS TO RUN AFTER
-#AFTER_COMMANDS="pip install --upgrade setuptools,pip install --upgrade sslyze,python -m sslyze --regular www.yahoo.com:443 www.google.com "
-
-
-
 
