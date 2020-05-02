@@ -13,13 +13,7 @@ cd ~/ptf-prep
 # Install some base dependencies via APT			  #
 #-----------------------------------------------------------------#
 apt-get update
-apt-get install python python3 python3-pip autotools-dev curl vim libmicrohttpd-dev make cmake libusb-1.0 libsqlite3 libsqlite3-dev libprotobuf-c1 libprotobuf-c-dev protobuf-c-compiler libpcap-dev uuid uuid-dev libxml-libxml-perl libxml2 libxml2-dev redis -y
-apt -y install automake
-apt -y install autoconf
-apt -y install m4
-apt -y install perl
-apt -y install libtool
-pip3 install setuptools
+apt -y install python python3 python3-pip autotools-dev curl vim libmicrohttpd-dev make cmake libusb-1.0 libsqlite3 libsqlite3-dev libprotobuf-c1 libprotobuf-c-dev protobuf-c-compiler libpcap-dev uuid uuid-dev libxml-libxml-perl libxml2 libxml2-dev redis automake autoconf m4 perl libtool setuptools
 
 #-----------------------------------------------------------------#
 # Installing protobuf						  #
