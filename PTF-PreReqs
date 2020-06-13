@@ -80,3 +80,10 @@ make install
 ldconfig
 
 
+#-----------------------------------------------------------------#
+# Mapping python3.7 to python3 (to install wifipumpkin3)	  #
+# Note: Only uncomment the line below if python3 is >= 3.7,	  #
+# and you do not already have python3.7 explicitly installed	  #
+#-----------------------------------------------------------------#
+#ln -sf $(which python3) /usr/bin/python3.7
+
