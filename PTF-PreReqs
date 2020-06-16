@@ -87,3 +87,17 @@ ldconfig
 #-----------------------------------------------------------------#
 #ln -sf $(which python3) /usr/bin/python3.7
 
+
+#-----------------------------------------------------------------#
+# Installing pyDot11						  #
+#-----------------------------------------------------------------#
+cd ~/ptf-prep
+git clone https://github.com/ICSec/pyDot11
+cd pyDot11
+pip3 install RESOURCEs/packetEssentials*
+pip3 install RESOURCEs/pbkdf2*
+pip3 install RESOURCEs/pyDot11*
+pip3 install RESOURCEs/pycryptodomex*
+pip3 install RESOURCEs/rc4*
+
+
